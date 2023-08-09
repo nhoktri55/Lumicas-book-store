@@ -1,0 +1,90 @@
+<!-- 
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023B
+Assessment: Assignment 1
+Author: Le Chanh Tri
+ID: s3924585 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-1">
+            <ul>
+                <li class="logo"><img src="logo.png" width="250px" alt="logo"></li>
+                <li><a href="./index.html"><strong>Home</strong></a></li>
+                <li><a href="./manga.html"><strong>Manga</strong></a></li>
+                <li><a href="./light-novel.html"><strong>Light Novel</strong></a></li>
+                <li><a href="./login-page.html"><strong>Login</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <div class="title">
+            <h2><strong>Contact Us</strong></h2>
+        </div>
+        <div class="contact">
+            <fieldset>
+                <div class="dropdown">
+                    <label><strong>Contact Purpose:</strong></label>
+                    <select name="Contact Purpose" id="dropdown">
+                        <option value="-Select">-Select-</option>
+                        <option value="1">I want to sell books</option>
+                        <option value="1">I want to buy books</option>
+                    </select>
+                </div>
+                <div class="name">
+                    <label for="name"><strong>Name:</strong></label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="email">
+                    <label for="email"><strong>Email:</strong></label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="phone">
+                    <label for="phone"><strong>Phone:</strong></label>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+                <div class="preference">
+                    <label><strong>Contact Preference:</strong></label>
+                    <input type="checkbox" name="email" value="email">By email
+                    <input type="checkbox" name="phone" value="phone">By phone
+                </div>
+                <div class="weekly">
+                    <label><strong>Receive weekly newsletter</strong></label>
+                    <input checked="checked" type="radio" name="choice" value="yes">Yes
+                    <input type="radio" name="choice" value="no">No
+                </div>
+                <div class="note">
+                    <label><strong>Extra note:</strong></label>
+                    <textarea rows="3" cols="40"></textarea>
+                </div>
+                <br>
+                <div class="send">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    <footer>
+        <nav class="nav-2">
+        <a href="./about-us.html"><strong>About Us</strong></a>
+        <a href="./privacy-policy.html"><strong>Privacy Policy</strong></a>
+        <a href="./terms.html"><strong>Terms</strong></a>
+        <a href="./copyright.html"><strong>Copyright</strong></a>
+        <a href="./contact-page.html"><strong>Contact Us</strong></a>
+    </footer>
+</body>
+
+</html>
