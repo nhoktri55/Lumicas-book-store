@@ -24,7 +24,7 @@ ul li:not(:first-child):hover {
 }
 
 /* Desktop screen */
-@media (min-width:1024px) {
+@media (min-width:992px) {
     .nav-1 ul {
         display: flex;
         list-style-type: none;
@@ -60,7 +60,7 @@ ul li:not(:first-child):hover {
     }
 }
  /* Mobile screen (tablet, smartphone) */
-@media (max-width: 1023px) {
+@media (max-width: 991px) {
     .nav-1 ul {
         display: flex;
         list-style-type: none;
